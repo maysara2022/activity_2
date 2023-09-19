@@ -57,8 +57,7 @@ class _WidgetOfState extends State<WidgetOf> {
                               child: InkWell(
                                 onTap: () {
                                   setState(() {
-                                    currentType = i +
-                                        1; // تحديد النوع الحالي بناءً على الصورة التي تم النقر عليها
+                                    currentType = i +1;
                                     print('$currentType ddddddddddddddd');
                                   });
                                 },
